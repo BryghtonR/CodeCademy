@@ -1,0 +1,105 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+.container {
+  max-width: 970px;
+}
+body{
+  background:url(https://d13yacurqjgara.cloudfront.net/users/3463/screenshots/1522859/black_diamonds.png);
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+.jumbotron{
+  background-color:black;
+  height:600px;
+}
+.header{
+  color:#fff;
+}
+
+.header li{
+  display:inline;
+  padding:15px;
+}
+.jumbotron a:link, .btn{
+  color:#0393FF;
+  background-color:black;
+  border:1px solid #0393FF;
+}
+.jumbotron a:hover, .btn:hover{
+  background-color:#0393FF;
+  color:white;
+}
+.jumbotron h1{
+  padding-top:50px
+}
+.main {
+  text-align:center;
+}
+.main p{
+  padding-top:30px;
+}
+.main button {
+  margin-left:15px;
+}
+#search {
+  width:400px;
+  background-color:black;
+  border:0;
+  border-bottom: 1px solid;
+  color:white;
+}
+#search:hover{
+  border-bottom:1px solid #0393FF;
+}
+.main form{
+  padding-top:80px;
+}
+.supporting {
+  text-align:center;
+}
+.supporting p{
+	padding-bottom:25px;
+}
+.supporting .thumbnail{
+  background:transparent;
+  border:none;
+}
+.supporting h2{
+  color:#0393FF;
+}
+.feature{
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg)no-repeat center;
+  background-size:cover;
+  text-align:center;
+  height:400px;
+}
+.feature h1{
+  color:#0393FF;
+}
+.feature .container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer{
+  font-size:14px;
+  background-color:black;
+  height: 250px;
+}
+.footer .row{
+  padding-top:50px;
+}
+.footer p{
+  margin:-2px;
+}
+.footer a:link{
+  color:#0393FF;
+}
