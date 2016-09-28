@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  color:white;
+}
+
+/*header*/
+.header .row {
+  padding:20px 0px 10px 0px;
+}
+.header .search{
+  background-color:black;
+  border-width: 0px 0px 1px 0px;
+  width: 200px;
+}
+.header form{
+  padding-top:10px;
+}
+.header .search:hover{
+  border-color:blue;
+}
+.header .btn{
+  background-color:black;
+  border-color:blue;
+  border-width:0px 0px 1px 0px;
+  margin-top:-10px;
+}
+.header .btn:hover{
+  color:white;
+}
+
+/*Menu*/
+.menu{
+  background-color:#152230;
+}
+.menu .active{
+  background-color:#1A77FF;
+  border-radius:0
+}
+.menu li a{
+  color:white;
+}
+.menu li a:hover{
+  background-color:#1A77FF;
+  border-radius:0;
+}
+
+
+/*Main*/
+.main {
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg)center center no-repeat;
+  background-size:cover;
+  height:500px;
+}
+.main .todaysDate{
+  padding-top:30px;
+}
+.main .todaysDate, .main .blerp{
+  font-size:18px;
+}
+.main h1 {
+  padding-top:30px;
+  font-size:60px;
+}
+.main span{
+  border-bottom: 3px solid #1a77ff;
+}
+
+
+/*Supporting*/
+.supporting {
+  background-color:#F2F2F2;
+}
+.supporting .col-md-8{
+  background-color:white;
+  color:black;
+  padding:20px;
+}
+.supporting .col-md-4{
+  background-color:#152230;
+  color:white;
+  padding:20px;
+}
+.supporting .col-md-12{
+  height:200px;
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/ad.jpg)no-repeat;
+  background-size:100%;
+}
+.supporting .row{
+  padding: 30px;
+}
+.supporting h3 {
+  padding-bottom:20px;
+  font-weight:bold;
+}
+.supporting p{
+	font-size:16px;
+}
+.supporting .post span{
+  font-weight:bold;
+  border-bottom: 3px solid #1a77ff;
+}
+
+/*Footer*/
+.footer{
+  margin:0;
+  padding:0;
+}
+.footer .row{
+  padding:50px;
+}
